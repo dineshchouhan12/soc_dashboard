@@ -13,6 +13,7 @@ export const HostModal = ({ isOpen, onClose, hostData, logs = [], loading = fals
     onClose();
     navigate(`/windows?host=${hostData.ip}`);
   };
+  //code
 
   return (
     <AnimatePresence>
